@@ -1,0 +1,87 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    text-align: center;
+}
+
+/* code for the nav bar, adding background and makeing it fit the full page*/ 
+nav {
+    width: 100%;
+    background-color: rgb(240, 240, 185);
+}
+/* Text decoration does not work to remove the bullet points, the reason list style type works is simply becaues its not plain text, it is a list style  */
+nav ul {
+    list-style-type: none;
+     /* display: inline;  This displays inline of t*/
+
+}
+/*  This displays the list items so "home,menu,contract,about" inside a straight line instead of being on top fo each other like they where  */
+nav li {
+    display: inline;
+}
+/* To remove the underline from the link you have to do it targeting the "anchor" tag which is why (nav a) works since it is targeting the anchor tags inside of the nav document  */
+nav a {
+    text-decoration: none;
+    color: green;
+    font-size: 2em;
+    margin-left: 35px;
+}
+nav a:hover {
+    color: darkorange;
+}
+
+
+h1 {
+    color: rgb(10, 102, 21);
+    font-size: 2.5em;
+}
+h2 { 
+    color: rgb(10, 102, 21);
+}
+h3 {
+    color: rgb(10, 102, 21);
+}
+
+
+.service { 
+    font-size: 1em;
+    color: green;
+    background-color: white;
+    border: 5px solid green;
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#Resturant-Table {
+    height: auto;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.contact {
+    color: rgb(10, 102, 21);
+    font-size: 3em;
+}
+p {
+    color: rgb(10, 102, 21);
+    font-size: 2em;
+}
+#content h2 p {
+    color: red;
+}
+table { 
+    border: 3px solid black;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
